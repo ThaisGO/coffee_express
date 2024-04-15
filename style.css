@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Alice", serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #100504;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #ECD4C3;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #ECD4C3;
+}
+
+.navbar-toggler {
+    color: #ECD4C3;
+    background-color: transparent;
+    border: var(--bs-border-width) solid #ECD4C3;
+}
+
+.navbar-toggler-icon {
+    color: #ECD4C3;
+}
+
+/* @media (max-width: 768px) { */
+@media (max-width: 576px) {
+    .navbar-collapse {
+    
+    }
+}
+
+/* SECTION HERO */
+#hero {
+    background: linear-gradient(rgba(71, 30, 13, 0.6), rgba(71, 30, 13, 0.6)), url('images/bgHero.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat"
+}
+
+#hero .card-overlay {
+    background: rgba(71, 30, 13, 0.6);
+}
+
+#hero h2 {
+    color: #ECD4C3;
+}
+
+#hero .btn{
+    color: #ECD4C3;
+    background-color: #831D1C;
+    border: none;
+    padding: 12px 24px;
+}
+
+/* About Section */
+#about {
+    color: #ECD4C3;
+}
+
+.about-info{
+    background-color: rgba(131, 29, 28, 0.8);
+}
+
+
+@media (max-width: 576px) {
+    .about-image img {
+        /* max-height: 150px; */
+    }
+}
+
+
