@@ -41,17 +41,17 @@
         </div>
     </header>
     
-    <section lc-helper="background" id="hero" class="container-fluid py-5 mb-4 d-flex justify-content-center">
+    <section lc-helper="background" id="hero" class="container-fluid py-5 d-flex justify-content-center">
         <div class="hero-info p-5 mb-4 col-12 d-flex flex-column align-items-center">
-            <h2 class="fw-bolder display-3">You order. We Deliver.</h2>
+            <h2 class="fw-bolder display-3 text-center">You order. We Deliver.</h2>
             <a class="btn btn-dark" href="#" role="button">Order Now</a>
         </div>
     </section>
 
     <section id="about" class="pt-5 pb-5">
         <div class="container">
-            <div class="row d-md-flex justify-content-center">
-                <div class="about-info col-lg-4 col-md-5 col-sm-12 d-block">
+            <div class="row d-md-flex  justify-content-center align-items-center">
+                <div class="about-info col-lg-4 col-md-5 col-sm-12 d-block me-md-3 mb-3 mb-md-0  d-md-flex flex-column justify-content-center p-4 rounded">
                     <h3 class="fs-40">About</h3>
                     <p class="fs-32">Founded by two lovers and enthusiasts of coffee brewing, we’re eager to deliver the most pleasant and delicious experience for every customer.</p>
                     <p class="fs-32">Here we have fast delivery, fresh beans and the best quality.</p>
@@ -59,6 +59,124 @@
 
                 <div class="about-image px-0 col-lg-5 col-md-6 col-sm-12">
                     <img src="images/about-shop 1.png" class="d-block w-100 rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="orders" class="orders pt-5 pb-5">
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-12">
+                    <h1 class="text-center">Order</h1>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center align-items-stretch">
+                <div class="col-12 col-md-4  mb-3 mb-md-0">
+                    <div class="card">
+                        <img class="card-img-top d-block w-100" src="./images/solo-order 1.png">
+                        <div class="card-body  d-flex flex-column justify-content-around align-items-center">
+                            <h5 class="card-title">Solo order</h5>
+                            <p class="card-text">You want a hot coffe in the middle of the day, or to start you morning routine? Order now.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <div class="card">
+                        <img class="card-img-top d-block w-100" src="./images/solo-order 1.png">
+                        <div class="card-body d-flex flex-column justify-content-around align-items-center">
+                            <h5 class="card-title">Subscription</h5>
+                            <p class="card-text">Tired of making the same order everyday? Make your own pack and pay for a week or even a month and we’ll delivery it for you!</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <div class="card">
+                        <img class="card-img-top d-block w-100" src="./images/solo-order 1.png">
+                        <div class="card-body d-flex flex-column justify-content-around align-items-center">
+                            <h5 class="card-title">Are you a developer?</h5>
+                            <p class="card-text">We know how much developers love a good coffee while coding on their projects, checkout our exclusive prices just for you!</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu pt-5 pb-5">
+        <div class="container">
+            <div class="row pb-4">
+                <h1 class="text-center">Menu</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-12 pb-4">
+                    <ul class="nav nav-pills nav-menu justify-content-center" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#hot-coffee" type="button" role="tab" aria-controls="home" aria-selected="true">Hot coffee</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#cold-coffee" type="button" role="tab" aria-controls="profile" aria-selected="false">Cold coffee</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#food" type="button" role="tab" aria-controls="contact" aria-selected="false">Food</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="row">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="hot-coffee" role="tabpanel" aria-labelledby="hot-tab">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="./images/menu-hot-coffee.png" alt="" class="d-md-block d-none w-100">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex flex-column flex-lg-row justify-content-between">
+                                                <h3 class="title">Americano caffè</h3>
+                                                <div class="title">$5.00 | $10.00 | $15.00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12 col-lg-8">
+                                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec  finibus mauris. Phasellus a velit bibendum.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row py-3">
+                                        <div class="col-12">
+                                            <div class="border border-bottom"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex flex-column flex-lg-row justify-content-between">
+                                                <h3 class="title">Cappuccino</h3>
+                                                <div class="title">$5.00 | $10.00 | $15.00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12 col-lg-8">
+                                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec  finibus mauris. Phasellus a velit bibendum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
