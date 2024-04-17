@@ -4,46 +4,37 @@
     box-sizing: border-box;
 }
 
-p {
-    margin: 0 !important;
-}
-
 body {
     font-family: "Alice", serif !important;
     font-weight: 400;
     font-style: normal;
 }
 
-header {
+header, footer {
     background-color: #100504;
 }
 
-.section-title {
-    font-size: 32px;
-    color: #ECD4C3;
+.cl-cream {
+    color: #ECD4C3 !important;
 }
 
-.nav-link {
-    font-size: 18px;
-    color: #ECD4C3;
+.cl-brown {
+    color: #471E0D !important;
+}
+
+.cl-light {
+    color: #B77152 !important;
+}
+
+.bg-light {
+    background-color: #F5F6FA !important;
 }
 
 .navbar-toggler {
-    color: #ECD4C3;
     background-color: transparent;
     border: var(--bs-border-width) solid #ECD4C3;
 }
 
-.navbar-toggler-icon {
-    color: #ECD4C3;
-}
-
-/* @media (max-width: 768px) { */
-@media (max-width: 576px) {
-    .navbar-collapse {
-    
-    }
-}
 
 /* SECTION HERO */
 #hero {
@@ -57,23 +48,17 @@ header {
     background: rgba(71, 30, 13, 0.6);
 }
 
-#hero h2 {
-    color: #ECD4C3;
-}
-
-#hero .btn{
-    color: #ECD4C3;
-    background-color: #831D1C;
+#hero .btn {
+    background-color: rgba(131, 29, 28, 0.8);
     border: none;
-    padding: 12px 24px;
 }
 
-/* About Section */
-#about {
-    color: #ECD4C3;
-    background-color: #F5F6FA;
+#hero .btn:hover {
+    transition: ease-in;
+    background-color: #831D1C;
 }
 
+/* SECTION ABOUT */
 .about-info{
     background-color: rgba(131, 29, 28, 0.8);
 }
@@ -85,30 +70,30 @@ header {
     }
 }
 
+/* SECTION ORDERS */
 #orders {
-    color: #ECD4C3;
     background-color: #B77152;
+}
+
+#orders .btn {
+    background-color: rgba(131, 29, 28, 0.8);
+    border: none;
+}
+
+#orders .btn:hover {
+    transition: ease-in;
+    background-color: #831D1C;
 }
 
 #orders .card {
     height: 100%;
-    color: #ECD4C3;
     background-color: #471E0D;
     border: none;
 }
 
-#menu {
-    background-color: #F5F6FA;
-}
-
-#menu .title {
-    color: #471E0D;
-    font-size: calc(1.2rem + .6vw);
-}
-
-#menu .description {
-    color: #733D24;
-    font-size: 1.1rem;
+#menu .nav-pills .nav-link {
+    color: #B77152;
+    font-size: 1.5rem;
 }
 
 #menu .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -116,6 +101,10 @@ header {
     background-color: transparent;
     border-bottom: 2px solid #471E0D;
     border-radius: 0;
-  }
+}
+
+#menu .border-bottom {
+    border-bottom: 1px solid #471E0D !important;
+}
 
 
