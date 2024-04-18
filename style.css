@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
     font-style: normal;
 }
 
-header, footer {
+header, #contact, footer {
     background-color: #100504;
 }
 
@@ -105,6 +106,13 @@ header, footer {
 
 #menu .border-bottom {
     border-bottom: 1px solid #471E0D !important;
+}
+
+/* SECTION ORDERS */
+footer .link-author {
+        color: #831D1C;
+        text-decoration: none;
+    
 }
 
 
